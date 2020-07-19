@@ -3,7 +3,10 @@
 
 namespace App\Util;
 
-
+/**
+ * Interface CoffeeOrderSimulatorResponseInterface
+ * @package App\Util
+ */
 interface CoffeeOrderSimulatorResponseInterface
 {
     public function getStatusCode(): int;
